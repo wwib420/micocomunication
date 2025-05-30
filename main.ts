@@ -17,13 +17,7 @@ input.onButtonPressed(Button.B, function () {
 basic.forever(function () {
     radio.setGroup(0 + radio_group)
     if (menu_2 == 2) {
-        basic.showLeds(`
-            . # # # .
-            . # . # .
-            . # # # .
-            . # # . .
-            . # . # .
-            `)
+    	
     } else {
         basic.showString("" + (radio_group))
     }

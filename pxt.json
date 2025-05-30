@@ -6,7 +6,8 @@
         "radio": "*",
         "microphone": "*",
         "datalogger": "*",
-        "audio-recording": "*"
+        "audio-recording": "*",
+        "radio-broadcast": "*"
     },
     "files": [
         "main.blocks",
